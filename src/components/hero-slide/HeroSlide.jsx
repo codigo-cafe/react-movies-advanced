@@ -89,7 +89,7 @@ const HeroSlideItem = (props) => {
     };
 
     const handleWatch = (item) => {
-        props.navigate('/movies/' + item.id, {
+        props.navigate('/movie/' + item.id, {
             replace: true,
         });
     };
